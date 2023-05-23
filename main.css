@@ -1,0 +1,29 @@
+/* main.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.jumbotron {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+.jumbotron h1 {
+  font-size: 48px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+/* Für Ihre Links */
+.special-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.special-link:hover {
+  color: #0056b3;
+}
