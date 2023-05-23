@@ -9,10 +9,9 @@
 .jumbotron {
   background-color: white;
 }
-.jumbotron h1 {
-  color: #5a5a5a;
-  text-decoration: none;
-  font-weight: bold;
+.jumbotron #greeting {
+  color: #0F4C81;
+  text-align: right;
 }
 #jumbo1 h1 {
   color: #fff;
