@@ -1,3 +1,8 @@
+#greeting {
+  text-align: left;
+  color: #0F4C81; /* Ersetzen Sie #yourColor durch die tatsächliche Farbe, die Sie verwenden möchten. Zum Beispiel: #ff0000 für Rot.*/
+}
+
 #jumbo1 {
   text-align: left;
   background-image: url('../images/gradient2.jpg');
