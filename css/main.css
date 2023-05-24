@@ -15,11 +15,6 @@
   font-family: Arial;
   font-weight: bold; /* New addition */
 }
-@media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-bottom: 2px !important; /* adjust value as needed */
-  }
-}
 #jumbo1 h1 {
   color: #fff;
   text-decoration: none;
