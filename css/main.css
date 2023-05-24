@@ -26,6 +26,10 @@
     padding-bottom: 500px !important; /* adjust value as needed */
   }
 }
+#jumbo2 .container {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
 #jumbo2 {
   padding-top: 0px;
 }
