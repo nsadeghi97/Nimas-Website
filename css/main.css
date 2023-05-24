@@ -17,8 +17,8 @@
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 20px !important; /* adjust value as needed */
-    padding-bottom: 20px !important; /* adjust value as needed */
+    padding-top: 2px !important; /* adjust value as needed */
+    padding-bottom: 2px !important; /* adjust value as needed */
   }
 }
 #jumbo1 h1 {
