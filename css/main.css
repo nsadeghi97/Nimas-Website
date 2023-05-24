@@ -168,39 +168,90 @@
     right: initial;
   }
 }
-.timeline-item:last-child {
-  margin-bottom: 50px; /* Passen Sie diesen Wert an, um den gewünschten Abstand zur Fußzeile zu erhalten */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px; /* Fügen Sie einen unteren Rand hinzu, um den Abstand zur Fußzeile zu erhöhen */
 }
 
-.timeline-item:nth-child(odd) {
-  left: 0;
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #0F4C81;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
 }
 
-.timeline-item:nth-child(odd)::after {
-  left: -17px;
-  right: initial;
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
 }
 
-.timeline-item:nth-child(even) {
-  left: 50%;
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #0F4C81;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
 }
 
-.timeline-item:nth-child(even)::after {
-  right: -17px;
-  left: initial;
+.container.left {
+    left: 0;
+}
+
+.container.right {
+    left: 50%;
+}
+
+.container.right::after {
+    left: -10px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 600px) {
-  .timeline-item, .timeline-item:nth-child(even), .timeline-item:nth-child(odd) {
-    width: 100%;
-    left: 0;
-  }
+    .timeline::after {
+        left: 31px;
+    }
 
-  .timeline-item::after, .timeline-item:nth-child(even)::after, .timeline-item:nth-child(odd)::after {
-    left: 15px;
-    right: initial;
-  }
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 0 22px 22px 0;
+        z-index: 1;
+    }
+
+    .container.left::after, .container.right::after {
+        left: 15px;
+    }
+
+    .container.right {
+        left: 0%;
+    }
 }
+
 
 
 
