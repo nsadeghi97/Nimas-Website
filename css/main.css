@@ -23,7 +23,7 @@
 @media screen and (min-width: 768px) {
   #jumbo2 {
     padding-top: 10px !important; /* adjust value as needed */
-    padding-bottom: 10px !important; /* adjust value as needed */
+    padding-bottom: 0px !important; /* adjust value as needed */
   }
 }
 #jumbo2 .container {
