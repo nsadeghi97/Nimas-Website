@@ -240,6 +240,18 @@
     right: initial;
   }
 }
+.timeline-header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #0F4C81; /* this adds a visual separator */
+}
+
+.timeline-header h2 {
+    font-size: 2em;
+    color: #0F4C81;
+}
+
 
 
 
