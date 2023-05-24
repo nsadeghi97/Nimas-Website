@@ -241,7 +241,7 @@
   }
 }
 .timeline-header {
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
     border-bottom: 2px solid #0F4C81; /* this adds a visual separator */
