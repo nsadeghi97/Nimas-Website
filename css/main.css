@@ -168,6 +168,40 @@
     right: initial;
   }
 }
+.timeline-item:last-child {
+  margin-bottom: 50px; /* Passen Sie diesen Wert an, um den gewünschten Abstand zur Fußzeile zu erhalten */
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(odd)::after {
+  left: -17px;
+  right: initial;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+}
+
+.timeline-item:nth-child(even)::after {
+  right: -17px;
+  left: initial;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline-item, .timeline-item:nth-child(even), .timeline-item:nth-child(odd) {
+    width: 100%;
+    left: 0;
+  }
+
+  .timeline-item::after, .timeline-item:nth-child(even)::after, .timeline-item:nth-child(odd)::after {
+    left: 15px;
+    right: initial;
+  }
+}
+
 
 
 
