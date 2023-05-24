@@ -264,6 +264,10 @@
     font-size: 2em;
     color: #0F4C81;
 }
+.timeline-container:first-child {
+    padding-top: 60px; /* Increase this value to increase the distance */
+}
+
 
 
 
