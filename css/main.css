@@ -172,7 +172,7 @@
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 100px; /* Add bottom margin to increase distance to the footer */
+  margin-bottom: 10px; /* Add bottom margin to increase distance to the footer */
 }
 
 .timeline::before {
