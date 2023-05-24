@@ -15,10 +15,6 @@
   font-family: Arial;
   font-weight: bold; /* New addition */
 }
-.jumbotron {
-  padding-top: 240px !important; /* Setzen Sie diesen Wert auf die gewünschte Größe */
-  padding-bottom: 240px !important; /* Setzen Sie diesen Wert auf die gewünschte Größe */
-}
 #jumbo1 h1 {
   color: #fff;
   text-decoration: none;
