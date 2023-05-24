@@ -215,6 +215,7 @@
   top: calc(50%); /* Adjusted this value */
   transform: translateY(-50%); /* Add this */
   border-radius: 50%;
+  padding-top: 60px
   z-index: 1;
 }
 
